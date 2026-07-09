@@ -2,6 +2,8 @@
 
 A browser-based penalty shootout game. Take 5 penalties against an adaptive AI goalkeeper, pick your spot in the goal, watch the keeper dive, and see if you score.
 
+### Live: https://penalty-shootout-rshvmr6n5jvwi5iv6lcpgi.streamlit.app/
+
 ## How to play
 
 - Click a zone in the goal (top-left, top-center, top-right, bottom-left, bottom-center, bottom-right) to take your shot.

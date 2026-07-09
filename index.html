@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Penalty Shootout</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Penalty Shootout</h1>
+      <div class="stats">
+        <div class="stat">
+          <span class="label">Attempt</span>
+          <span id="attempt-count">1</span>/<span id="attempt-total">5</span>
+        </div>
+        <div class="stat">
+          <span class="label">Score</span>
+          <span id="score-count">0</span>
+        </div>
+      </div>
+    </header>
+
+    <div class="pitch">
+      <div class="goal" id="goal">
+        <div class="crossbar"></div>
+        <div class="post post-left"></div>
+        <div class="post post-right"></div>
+        <div class="net"></div>
+
+        <div class="keeper" id="keeper">
+          <div class="keeper-head"></div>
+          <div class="keeper-body"></div>
+        </div>
+
+        <div class="zone-grid" id="zone-grid">
+          <button class="zone" data-zone="top-left"></button>
+          <button class="zone" data-zone="top-center"></button>
+          <button class="zone" data-zone="top-right"></button>
+          <button class="zone" data-zone="bottom-left"></button>
+          <button class="zone" data-zone="bottom-center"></button>
+          <button class="zone" data-zone="bottom-right"></button>
+        </div>
+      </div>
+
+      <div class="ball" id="ball"></div>
+
+      <div class="message" id="message"></div>
+    </div>
+
+    <div class="footer">
+      <p class="hint" id="hint">Click a spot in the goal to take your shot.</p>
+      <button class="restart-btn" id="restart-btn" hidden>Play Again</button>
+    </div>
+  </div>
+
+  <script src="gameLogic.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

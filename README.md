@@ -1,11 +1,11 @@
 # Penalty Shootout
 
-A browser-based penalty shootout game. Take 5 penalties against an adaptive AI goalkeeper — pick your spot in the goal, watch the keeper dive, and see if you score.
+A browser-based penalty shootout game. Take 5 penalties against an adaptive AI goalkeeper, pick your spot in the goal, watch the keeper dive, and see if you score.
 
 ## How to play
 
 - Click a zone in the goal (top-left, top-center, top-right, bottom-left, bottom-center, bottom-right) to take your shot.
-- The keeper dives based on your shot history — the more you favor a corner, the more it starts covering that side, especially in later rounds.
+- The keeper dives based on your shot history, the more you favor a corner, the more it starts covering that side, especially in later rounds.
 - Corner shots carry a small chance of flying wide, even if the keeper dives the wrong way.
 - If the keeper dives to the exact zone you shot at, it's always a save.
 - You get 5 attempts. Your final score and a verdict are shown at the end, with a **Play Again** button to restart.
